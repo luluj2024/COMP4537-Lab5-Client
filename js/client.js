@@ -1,7 +1,7 @@
 
 // ChatGPT (https://chat.openai.com/) assisted with this assignment.
-// Replace this with the deployed backend's HTTPS origin (no trailing slash).
-const API_BASE_URL = "https://YOUR-BACKEND-HOST";
+// Deployed backend HTTPS origin (no trailing slash).
+const API_BASE_URL = "https://comp4537-lab5-t5-api-a62717b254e6.herokuapp.com";
 
 class PatientClient {
     constructor() {
