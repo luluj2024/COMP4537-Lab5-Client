@@ -1,5 +1,7 @@
 
-const API_BASE_URL = "https://backend.example.com";
+// ChatGPT (https://chat.openai.com/) assisted with this assignment.
+// Replace this with the deployed backend's HTTPS origin (no trailing slash).
+const API_BASE_URL = "https://YOUR-BACKEND-HOST";
 
 class PatientClient {
     constructor() {
@@ -48,7 +50,7 @@ class PatientClient {
 
         try {
             const response = await fetch(
-                `${API_BASE_URL}/lab5/api/v1/insert`,
+                `${API_BASE_URL}/lab5/api/v1/sql`,
                 {
                     method: "POST"
                 }
